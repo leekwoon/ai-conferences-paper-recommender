@@ -23,13 +23,7 @@ def count_tokens(text):
 
 # Initialize FastAPI app
 app = FastAPI()
-# app = FastAPI(
-#     servers=[
-#         {
-#             "url": "https://leekwoon-ai-conferences-paper-recommender.hf.space",
-#         }
-#     ],
-# )
+
 
 # OpenAI embeddings을 사용하여 벡터 생성
 embeddings = OpenAIEmbeddings(
